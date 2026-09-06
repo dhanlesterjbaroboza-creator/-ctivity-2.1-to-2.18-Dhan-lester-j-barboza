@@ -1,0 +1,13 @@
+public class Number {
+    public static void main(String[] args) {
+
+        // Print table header using tab escape sequences
+        System.out.println("number\tsquare\tcube");
+
+        // Calculate and print values for 0, 1, 2, 3
+        System.out.println("0\t0\t0");
+        System.out.println("1\t1\t1");
+        System.out.println("2\t4\t8");
+        System.out.println("3\t9\t27");
+    }
+}
