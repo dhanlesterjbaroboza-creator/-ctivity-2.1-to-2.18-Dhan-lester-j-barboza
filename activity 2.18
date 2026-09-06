@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class ScanAndConvert {
+    public static void main(String[] args) {
+
+        // Create Scanner object
+        Scanner input = new Scanner(System.in);
+
+        // Display subject names
+        System.out.println("Subjects: Java | C++ | C#");
+
+        // Step 1: Get input grades
+        System.out.print("Enter grade for Java: ");
+        String javaStr = input.nextLine();
+
+        System.out.print("Enter grade for C++: ");
+        String cppStr = input.nextLine();
+
+        System.out.print("Enter grade for C#: ");
+        String csharpStr = input.nextLine();
+
+        // Step 2: Convert String to double
+        double javaGrade = Double.parseDouble(javaStr);
+        double cppGrade = Double.parseDouble(cppStr);
+        double csGrade = Double.parseDouble(csharpStr);
+
+        // Step 3: Calculate average
+        double totalAverage = (javaGrade + cppGrade + csGrade) / 3;
+
+        // Step 4: Display results
+        System.out.println("\n--- Grades ---");
+        System.out.println("Java: " + javaGrade);
+        System.out.println("C++:  " + cppGrade);
+        System.out.println("C#:   " + csGrade);
+        System.out.printf("Total Average: %.2f%n", totalAverage);
+
+        // Close scanner
+        input.close();
+    }
+}
