@@ -1,0 +1,12 @@
+public class Box {
+    public static void main(String[] args) {
+
+        // Print BOX on the left and DIAMOND on the right
+        System.out.println("**********\t\t  *");
+        System.out.println("*        *\t\t * *");
+        System.out.println("*        *\t\t*   *");
+        System.out.println("*        *\t\t * *");
+        System.out.println("*        *\t\t  *");
+        System.out.println("**********\t\t");
+    }
+}
