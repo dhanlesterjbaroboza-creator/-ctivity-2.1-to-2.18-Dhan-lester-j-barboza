@@ -1,0 +1,26 @@
+public class ArithmeticOperators {
+    public static void main(String[] args) {
+
+        double first = 42.5;
+        double second = 12.375;
+
+        System.out.println("Variable values...");
+        System.out.println("First = " + first);
+        System.out.println("Second = " + second);
+
+        System.out.println("Adding...");
+        System.out.println("Adding = " + (first + second));
+
+        System.out.println("Subtracting...");
+        System.out.println("Subtracting = " + (first - second));
+
+        System.out.println("Multiplying...");
+        System.out.println("Multiplying = " + (first * second));
+
+        System.out.println("Dividing...");
+        System.out.println("Dividing = " + (first / second));
+
+        System.out.println("Computing the remainder...");
+        System.out.println("Remainder = " + (first % second));
+    }
+}
