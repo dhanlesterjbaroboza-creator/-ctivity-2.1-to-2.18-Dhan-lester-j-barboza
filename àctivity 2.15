@@ -1,0 +1,8 @@
+public class Escape {
+    public static void main(String[] args) {
+
+        // Use \t tab escape sequence to align columns
+        System.out.println("First Name\tLast Name\tStudent Number\tPhone Number");
+        System.out.println("DHAN\t\tBARBOZA\t\t26-207\t\t09355997380");
+    }
+}
